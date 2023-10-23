@@ -8,7 +8,7 @@ def main():
     if len(data)==0:
         raise ValueError("No Input Data.")
     data = list(filter(None, data))
-    print('Hello')
+    # print('Hello')
     print(data)
 
 if __name__=='__main__':
